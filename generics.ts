@@ -1,10 +1,11 @@
 //Generics Function
 
 function getAge<T>(value:T):T{
-    return value
-
+    return value;
 }
 
-console.log(getAge('Roshan'));
+const nage = getAge(20);
+console.log(nage);
+const sage = getAge("20")
+console.log(sage);
 
-console.log(getAge(20));
